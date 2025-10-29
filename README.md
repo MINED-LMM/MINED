@@ -2,7 +2,7 @@
 <h1 align="center"> <a href="https://arxiv.org/pdf/2510.19457">MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models</a></h1>
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-MINED-blue)](https://huggingface.co/papers/2510.19457) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED) [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED)  [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MINED-BF55EC)]()
+[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-MINED-blue)](https://huggingface.co/papers/2510.19457) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED) [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED)  [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/) [[![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MINED-BF55EC)](https://mined-lmm.github.io/MINED/MINED.pdf)
 
 
 
