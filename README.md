@@ -81,7 +81,7 @@ python inference.py \
 
 model_name refers to the model name defined in the VLMEvalKit\vlmeval\config.py file.
 
-data_eval_type in ["time_agnostic","timestamp","temporal_interval","awareness_future","awareness_past","future_unanswerable_date","previous_unanswerable_date","ranking","understanding","calculation","robustness",]
+data_eval_type in ["time_agnostic", "timestamp", "temporal_interval", "awareness_future", "awareness_past", "future_unanswerable_date", "previous_unanswerable_date", "ranking", "understanding", "calculation", "robustness"]
 
 
 ## 🤖Evaluation
