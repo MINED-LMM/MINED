@@ -103,7 +103,7 @@ If you find our paper and code useful in your research, please consider giving a
 ```bibtex
 @article{jiang2025mined,
   title = {MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models},
-  author={Jiang, Kailin and Jiang, Ning and Ren, Yuchen and Li, Yuchen and Gao, Yifan and Bi, Jinhe and Ma, Yunpu and Liu, Qingqing and Wang, Xianhao and Jia, Yifan and Jiang, Hongbo and Hu, Yaocong and Li, Bin and Liu, Lei and Du, Yuntao},
+  author={Jiang, Kailin and Jiang, Ning and Du, Yuntao and Ren, Yuchen and Li, Yuchen and Gao, Yifan and Bi, Jinhe and Ma, Yunpu and Liu, Qingqing and Wang, Xianhao and Jia, Yifan and Jiang, Hongbo and Hu, Yaocong and Li, Bin and Liu, Lei},
   year = {2025}
   url = {https://arxiv.org/pdf/2510.19457}
 }
