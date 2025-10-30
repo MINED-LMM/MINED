@@ -2,7 +2,7 @@
 <h1 align="center"> <a href="https://arxiv.org/pdf/2510.19457">MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models</a></h1>
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Paper-MINED-blue)](https://huggingface.co/papers/2510.19457) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED) [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED)  [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MINED-BF55EC)](https://mined-lmm.github.io/MINED/MINED.pdf)
+[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED) [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED)  [![website](https://img.shields.io/badge/Website-MINED-orange?logo=globe)](https://mined-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MINED-BF55EC)]()
 
 
 
@@ -19,6 +19,7 @@
 - [🛠️Requirements and Installation](#️requirements-and-installation)
 - [💥Inference](#inference)
 - [🤖Evaluation](#evaluation)
+- [📊Customize inference data and task instructions](#customize-inference-data-and-task-instructions)
 - [🤝 Acknowledgments](#-acknowledgments)
 - [📝 Citation](#-citation)
 
@@ -81,7 +82,7 @@ python inference.py \
 
 model_name refers to the model name defined in the VLMEvalKit\vlmeval\config.py file.
 
-data_eval_type in ["time_agnostic", "timestamp", "temporal_interval", "awareness_future", "awareness_past", "future_unanswerable_date", "previous_unanswerable_date", "ranking", "understanding", "calculation", "robustness"]
+data_eval_type in ["time_agnostic", "timestamp", "temporal_interval", "awareness_future", "awareness_past", "future_unanswerable_date", "previous_unanswerable_date", "ranking", "understanding", "calculation", "robustness",]
 
 
 ## 🤖Evaluation
@@ -90,6 +91,19 @@ Evaluate **MINED**
 ```shell
 python eval_code\cem_f1.py
 ```
+
+
+## 📊Customize inference data and task instructions
+
+You can customize task instructions in the **inferrence.py** file to complete the corresponding tasks.
+
+<div align="center">   <img src="figs\instruction.png" width="700px"> </div>
+
+
+Custom data only needs to match the image and text pairs.
+
+
+
 
 
 ## 🤝 Acknowledgments
@@ -103,7 +117,7 @@ If you find our paper and code useful in your research, please consider giving a
 ```bibtex
 @article{jiang2025mined,
   title = {MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models},
-  author={Jiang, Kailin and Jiang, Ning and Du, Yuntao and Ren, Yuchen and Li, Yuchen and Gao, Yifan and Bi, Jinhe and Ma, Yunpu and Liu, Qingqing and Wang, Xianhao and Jia, Yifan and Jiang, Hongbo and Hu, Yaocong and Li, Bin and Liu, Lei},
+  author={Jiang, Kailin and Jiang, Ning and Ren, Yuchen and Li, Yuchen and Gao, Yifan and Bi, Jinhe and Ma, Yunpu and Liu, Qingqing and Wang, Xianhao and Jia, Yifan and Jiang, Hongbo and Hu, Yaocong and Li, Bin and Liu, Lei and Du, Yuntao},
   year = {2025}
   url = {https://arxiv.org/pdf/2510.19457}
 }
