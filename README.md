@@ -80,9 +80,24 @@ python inference.py \
     --image_path_prefix ./path/image_data
 ```
 
-model_name refers to the model name defined in the VLMEvalKit\vlmeval\config.py file.
+model_name refers to the model name defined in the **VLMEvalKit\vlmeval\config.py** file.
 
-data_eval_type in ["time_agnostic", "timestamp", "temporal_interval", "awareness_future", "awareness_past", "future_unanswerable_date", "previous_unanswerable_date", "ranking", "understanding", "calculation", "robustness",]
+<details>
+<summary><b>data_eval_type options (click to expand)</b></summary>
+
+- `time_agnostic`: Knowledge understanding independent of time
+- `timestamp`: Reasoning about facts at a specific time point
+- `temporal_interval`: Reasoning about facts/states within a time interval
+- `awareness_future`: Future temporal awareness and prediction consistency
+- `awareness_past`: Past temporal awareness and retrospective consistency
+- `future_unanswerable_date`: Unanswerable queries concerning future dates
+- `previous_unanswerable_date`: Unanswerable queries concerning past dates
+- `ranking`: Ordering/comparison based on time-sensitive attributes
+- `understanding`: Understanding complex temporal semantics and inference
+- `calculation`: Date/time-related arithmetic and derivation
+- `robustness`: Robustness to temporal perturbations and phrasing variations
+
+</details>
 
 
 ## 🤖Evaluation
